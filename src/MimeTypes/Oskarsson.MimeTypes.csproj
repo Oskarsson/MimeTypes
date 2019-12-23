@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    
+    <IsPackable>true</IsPackable>
+    <Version>1.0.0</Version>
+    <Authors>Tobias Oskarsson</Authors>
+    <Company />
+    <Product>MimeTypes</Product>
+    <Description>Provides a two-way mapping of file extensions to mime types and mime types to file extensions.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+    <RepositoryUrl>https://github.com/Oskarsson/MimeTypes.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RootNamespace>System</RootNamespace>
+
+  </PropertyGroup>
+
+</Project>
